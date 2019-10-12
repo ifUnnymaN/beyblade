@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.header {
+  background: #343c4e;
+}
+
+.header__img img {
+  width: 400px;
+  height: auto;
+}
