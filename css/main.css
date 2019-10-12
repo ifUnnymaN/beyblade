@@ -7,13 +7,90 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-size: 15px;
   line-height: 1.5;
+  min-height: 100vh;
 }
 
-.header {
-  background: #343c4e;
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  background-image: url(../img/bg_img-4PXBlur_v2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  height: 600px;
+}
+
+.header__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin: 0 auto;
+  padding: 15px 0 70px 0;
 }
 
 .header__img img {
   width: 400px;
   height: auto;
 }
+
+
+.header__title {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,103,34,1) 0%, rgba(80,254,62,1) 0%, rgba(123,138,255,1) 100%);
+}
+
+.header__title-main {
+  font-size: 30px;
+  color: #2f2f2f;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+  
+}
+
+.header__title-description {
+  display: flex;
+  justify-content: flex-end;
+  color: #444;
+  /* margin-right: 326px; */
+  padding: 0;
+  margin: 0 auto 0 auto;
+  width: 494px;
+}
+
+.header__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.header__arrow a {
+  text-decoration: none;
+  color: orangered;
+  /* background: red; */
+}
+
+.header__arrow a:hover {
+  color: #31fc33;
+}
+
